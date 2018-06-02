@@ -77,8 +77,10 @@
       				</div>
       			
       				<div class="modal-footer">
-      					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
-       					<button type="submit" name="logout" class="btn btn-primary">Logout</button>
+      					<form action="login.php" method="POST">
+      						<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+       						<button type="submit" name="logout" class="btn btn-primary">Logout</button>
+       					</form>
      				</div>
     			</div>
   			</div>
