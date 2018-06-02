@@ -118,7 +118,7 @@
       				<div class="modal-body">
       					Please select the following:<br/><br/>
        			 		<form>
-       			 			Date: &nbsp;<input type="text" name="bookDate"><br/>
+       			 			Date: &nbsp;<input type="text" name="bookDate" id="datepicker"><br/>
        			 			Councellor: &nbsp;<input type="text" name="bookCouns"><br/>
        			 			Urgency: &nbsp;
        			 				<div class="btn-group" role="group">

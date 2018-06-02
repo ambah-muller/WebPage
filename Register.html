@@ -13,6 +13,17 @@
   	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   	<link href="style.css" rel="stylesheet">
 
+    <!--datepicker-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+      $( function() {
+        $( "#datepicker" ).datepicker();
+      } );
+    </script>
+
     <style type="text/css">
       body{
         background-image: url(img/pexels-photo-567973.jpeg);
@@ -37,7 +48,7 @@
           <p>Contact</p>
           <input type="text" name="phoneNo" placeholder="Enter Phone Number">
           <p>Date of Birth</p> <!--Replace with calendar-->
-          <input type="text" name="dob" placeholder="DD/MM/YYYY"> <!--date picker-->
+          <input type="text" name="dob" id="datepicker" placeholder="DD/MM/YYYY"> <!--date picker-->
           <p>City</p>
           <input type="text" name="city" placeholder="Select a city"> <!--make this a drop down-->
         </div>
