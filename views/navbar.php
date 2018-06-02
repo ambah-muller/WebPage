@@ -30,7 +30,7 @@
 					<ul class="dropdown-menu">
 						<li><a class="nav-link" href="profile.php">Profile</a></li>
 						<li><a class="nav-link" href="#">Settings</a></li>
-						<li><a class="nav-link" href="index.php">Logout</a></li>
+						<li><a class="nav-link" href="#" data-toggle="modal" data-target="#LogoutModalCenter">Logout</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -57,6 +57,28 @@
       			
       				<div class="modal-footer">
        					<button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+     				</div>
+    			</div>
+  			</div>
+		</div>
+
+		<div class="modal fade" id="LogoutModalCenter" tabindex="-1" role="dialog">
+ 			<div class="modal-dialog modal-dialog-centered" role="document">
+   				<div class="modal-content">
+    				<div class="modal-header">
+       					<h5 class="modal-title" id="exampleModalLongTitle">Help</h5>
+      					<button type="button" class="close" data-dismiss="modal">
+          					<span aria-hidden="true">&times;</span>
+        				</button>
+     				</div>
+
+      				<div class="modal-body">
+      					<p>Are you sure you want to logout?
+      				</div>
+      			
+      				<div class="modal-footer">
+      					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+       					<button type="submit" name="logout" class="btn btn-primary">Logout</button>
      				</div>
     			</div>
   			</div>
